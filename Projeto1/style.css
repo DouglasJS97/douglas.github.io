@@ -1,0 +1,642 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style: none;
+        font-family: 'Ubuntu', sans-serif;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    body{
+        background-color: #d6d6d6;
+    }
+
+    .fa-bars, #btnBar, .redes-sociais, .fa-times{
+        display: none;
+        cursor: pointer;
+    }
+
+    .container{
+        display: flex;
+        justify-content: space-around;
+        height: 90px;
+        align-items: center;
+        border-bottom: 1px solid;
+        background-color: #131313;
+        color: bisque;
+    }
+
+    li a:hover{
+        color: bisque;
+        transition: all .2s;
+    }
+
+    ul{
+        display: flex;
+    }
+
+    ul a{
+        margin: 6px;
+        padding: 4px;
+        color:blanchedalmond;
+        border-radius: 5px;
+        transition: all .3s;
+    }
+
+    .container ul li a:hover{
+        box-shadow:0px 0px 10px bisque inset,
+                    0px 0px 10px bisque;
+        font-size: 23px;
+                    
+    }
+
+    /*Rodape da pagina*/
+    footer{
+        border-top: 2px solid #d6d6d6;
+        width: 100%;
+        height: 125px;
+        background-color: #2b2a2a;
+        position: absolute;
+        bottom: -100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: bisque;
+        
+    }
+
+    /*Rodape tamanho normal*/
+    .redes-sociais-rodape{
+        display: block;
+    }
+
+    .fa-instagram{color:#517fa4;}
+
+    .fa-pinterest{color:#cb2027;}
+
+    .fa-youtube{color:red;}
+
+    .fa-twitter{color:#00aced;}
+
+    footer p{
+        font-size: 14px;
+    }
+
+    .redes-sociais-rodape{
+        margin-top: 10px;
+    }
+
+    .redes-sociais-rodape a{
+        margin: 5px;
+    }
+
+    .redes-sociais-rodape a i:hover{
+        font-size: 23px;
+    }
+
+
+    /*CATEGORIAS DO SITE */
+    .categorias{
+        width: 100%;
+        height: 110px;
+        background-color: #2b2a2a;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all .7s;
+    }
+
+    .categorias ul li a:hover{
+        border-bottom:1px solid bisque;
+        border-radius: 1%;
+        color: blanchedalmond;
+    }
+    .fa-sign-in-alt{
+        margin-left: 15px;
+    }
+
+    .referencia{
+        margin-top: 15px;
+        display: flex;
+
+    }
+
+/*BARRA DE PESQUISAR*/
+    .pesquisar{
+        border: none;
+        margin: 0 20px;
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        margin: 0 15px;
+    }
+
+    .login{
+        margin: 8px 8px;
+    }
+
+    .pesquisar input{
+        outline: 0;
+        padding: 1px;
+        text-transform: lowercase;
+    }  
+
+    .pesquisar button{
+        cursor: pointer;
+        border-radius: 0 3px 3px 0;
+        outline: 0;
+        border: none;
+        padding: 2px 7px;
+        transition: all .3s;
+    }
+
+    .pesquisar button:hover{
+        background-color: #131313;
+        color: #fff;
+    }
+
+    /*conteudo*/
+    .ofertas{
+        height: 100%;
+        margin:10px 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .polaroide{
+        width: 220px;
+        height: 270px;
+        margin:7px 7px;
+        background-color: #fff;
+        border-radius: 3px;
+        padding: 4px 4px;
+        text-align: left;
+        
+    }
+
+    .ofertas .img{
+        width: 180px;
+        height: 200px;
+        margin:5px 5px;
+        transition: all .3s;
+    }
+
+    div .img{
+        opacity: .9;
+    }
+
+    .img:hover{
+        opacity: 1;
+    }
+
+    .ofertas a{
+        transition: all .5s;
+    }
+
+    .ofertas a:hover{
+    box-shadow: 0 0 60px #131313;
+    }
+
+    /*Formulario*/
+    .formulario{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #2b2a2a;
+    }
+
+    .container-form{
+        width: 40%;
+        border: 1px solid gray;
+        border-radius: 2px 20px;
+        background-color: rgb(240, 238, 238);
+        padding: 10px;
+    }
+
+    .container-form h1{
+        text-align: center;
+        text-transform: capitalize;
+    }
+
+    .container-form form input{
+        width: 97%;
+        margin-bottom: 20px;
+        outline: 0;
+        padding: 5px;
+        border: 1px solid gray;
+        border-radius: 6px;
+    }
+    
+    .container-form  form button{
+        width: 98%;
+        background-color: #131313;
+        color: #fff;
+        outline: 0;
+        border: 1px solid gray;
+        padding: 3px;
+        cursor: pointer;
+        transition: all .3s;
+        border-radius: 6px;
+    }
+
+    .container-form  form button:hover{
+        box-shadow: 1px 2px 15px gray inset;
+
+    }
+    
+    .container-form p,h2{
+        text-transform: capitalize;
+    }
+
+    .container-form p{
+        font-size: 12px;
+    }
+    
+    .container-form form p, button{
+        text-transform: capitalize;
+    }
+    
+    form input{
+        text-transform: lowercase;
+    }
+    
+    .cadastro{
+        text-align: right;
+        font-size: 15px;
+    }
+    
+    .cadastro{
+        color: #2b2a2a;
+    }
+
+    .btnCadastrese{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-top: 5px;
+        margin-right:6px ;
+    }
+
+    .btnCadastrese p{
+        margin-right:10px ;
+        font-size: 10px;
+    }
+
+    .btnCadastrese a{
+        border: 1px solid gray;
+        padding: 3px;
+        font-size: 12px;
+        color: gray;
+        text-transform:lowercase;
+        transition: all .4s;
+        border-radius: 3px;
+        font-weight: lighter;
+    }
+
+    .btnCadastrese a:hover{
+        background-color: gray;
+        color: #fff;
+    }
+
+    .containerCadastro{
+        width: 100%;
+        height: 80vh;   
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .box-login{
+        border-radius: 5px 20px;
+        width: 40%;
+        height: 70%;
+        text-align: center;
+        padding-top: 15px;
+        box-shadow: 1px 1px 20px #fff;
+    }
+    
+    .campos form{
+        text-align: left;
+        margin: 10px;
+        text-transform:capitalize;
+    }
+    
+    .campos form input{
+        margin-top: 10px;
+        border-radius: 13px;
+        border: none;
+        padding:6px;
+        outline: none;
+        margin-left: 5px;
+    }
+    
+    .item-1{
+        width: 96%;
+    }
+    
+    .campos form button{
+        cursor: pointer;
+    }
+    
+    .item-2{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .item-2 button{
+        cursor: pointer;
+        padding:4px;
+        margin: 5px;
+        font-size: 15px;
+        color: gray;
+        border: none;
+        text-transform: lowercase;
+        font-weight: lighter;
+        border: 1px solid gray;
+        transition: all .4s;
+        width: 100px;
+        height: 35px;
+        border-radius: 5px;
+    }
+    
+    .item-2 button:hover{
+        background-color: gray;
+        color: #fff;
+        box-shadow: 1px 1px 5px #000;
+    }
+/*---------Se for mobile --------*/
+@media(max-width:920px){
+    div .img{
+        opacity: 1;
+    }
+
+    .fa-bars, .redes-sociais{
+        display: block;
+    }
+
+    .itens{
+        display: none;
+    }
+
+    .container{
+        border: none;
+    }
+
+    .container ul{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: #2b2a2a;
+        top: 90px;
+        left: -110%;
+        text-align: center;
+        transition: all .6s;
+        border-top: 1px solid;
+
+        display: flex;        
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    ul li{
+        margin: 8px;
+    }
+
+    #btnBar:checked ~ ul{
+        left: 0;
+    }
+
+    #btnBar:checked ~ label .fa-bars{
+        display: none;
+    }
+
+    #btnBar:checked ~ label .fa-times{
+        display: block;
+    }
+
+
+    /*Redes sociais*/
+    .redes-sociais{
+        display: flex;
+        margin: 8px;
+    }
+
+    .fa-instagram{color:#517fa4;}
+
+    .fa-pinterest{color:#cb2027;}
+
+    .fa-youtube{color:red;}
+
+    .fa-twitter{color:#00aced;}
+
+    .redes-sociais a i:hover{
+        font-size: 23px;
+    }
+
+    /*Rodape tamanho smart device*/
+    footer{
+        width: 100%;
+        height: 125px;
+        background-color: #2b2a2a;
+        position: absolute;
+    }
+
+    footer h4{
+        font-size: 18px;
+    }
+
+    .redes-sociais-rodape{
+        display: none;
+    }
+
+    /*CATEGORIAS DO SITE */
+    .categorias{
+        border-top: 1px solid bisque;
+      
+    }
+
+    .categorias ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .categorias ul li a{
+        transition: all .3s;
+        font-size:15px;
+    }
+
+
+    .categorias ul li a:hover{
+        border-bottom:1px solid bisque;
+        border-radius: 0;
+    }
+
+
+    /*AREA DE PESQUISA*/
+    .pesquisar{
+        margin-top: 15px;
+    }
+
+    .pesquisar button:hover{
+        background-color: #2b2a2a;
+        color: #fff;
+    }
+   
+
+    /*Formulario*/
+    .formulario{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #2b2a2a;
+    }
+
+    .container-form{
+        width: 85%;
+        border: 1px solid gray;
+        border-radius: 2px 20px;
+        background-color: rgb(240, 238, 238);
+        padding: 10px;
+    }
+
+    .container-form h1{
+        text-align: center;
+        text-transform: capitalize;
+    }
+
+    .container-form form input{
+        width: 97%;
+        margin-bottom: 20px;
+        outline: 0;
+        border: 1px solid;
+        padding: 5px;
+        border: 1px solid gray;
+        border-radius: 6px;
+    }
+    
+    .container-form  form button{
+        background-color: #2b2a2a;
+        color: #fff;
+        outline: 0;
+        border: 1px solid gray;
+        padding: 5px;
+        margin: 5px;
+    }
+    
+    .container-form p,h2{
+        text-transform: capitalize;
+    }
+    
+    .container-form form p, button{
+        text-transform: capitalize;
+    }
+    
+    form input{
+        text-transform: lowercase;
+    }
+    
+    .cadastro{
+        text-align: right;
+        font-size: 15px;
+    }
+    
+    .cadastro{
+        color: #2b2a2a;
+    }
+    
+    .cadastro button{
+        color: #2b2a2a;
+        background-color: rgb(236, 228, 228);
+        border-radius: 3px;
+        font-size: 15px;
+        padding: 3px;
+        outline: 0;
+        border: 1px solid gray;
+    }
+
+
+    .containerCadastro{
+        width: 100%;
+        height: 80vh;   
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box-login{
+        border-radius: 5px 20px;
+        width: 70%;
+        height: 80%;
+        text-align: center;
+        padding-top: 15px;
+        box-shadow: 1px 1px 20px #fff;
+    }
+
+    .campos form{
+        text-align: left;
+        margin: 10px;
+        text-transform:capitalize;
+    }
+
+    .campos form input{
+        margin-top: 10px;
+        border-radius: 13px;
+        border: none;
+        padding:6px;
+        outline: none;
+        margin-left: 5px;
+    }
+    
+    .item-1{
+        width: 96%;
+    }
+
+    .campos form button{
+        cursor: pointer;
+    }
+
+    .item-2{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .item-2 button{
+        cursor: pointer;
+        padding:4px;
+        margin: 5px;
+        font-size: 15px;
+        color: gray;
+        border: none;
+        text-transform: lowercase;
+        font-weight: lighter;
+        border: 1px solid gray;
+        transition: all .4s;
+        width: 100px;
+        height: 35px;
+        border-radius: 5px;
+    }
+
+    .item-2 button:hover{
+        background-color: gray;
+        color: #fff;
+        box-shadow: 1px 1px 5px #000;
+    }
+}

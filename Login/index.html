@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>Search Pure HTML5 - CSS3</title>
+</head>
+<body onload="hora()">
+    <section class="container">
+        <div class="imagem-fundo">
+            <img src="https://neoradar.uai.com.br/wp-content/uploads/sites/8/2020/04/inovacao-em-tempos-de-coronavirus.jpeg" width="100%"  height="155" alt="">
+        </div>
+        <div class="avatar-image">
+            <img src="https://png.pngtree.com/png-clipart/20190520/original/pngtree-vector-users-icon-png-image_4144740.jpg" width="220px"  height="180px" alt="">
+        </div>
+        <div class="formulario">
+            <form action="">
+                <label for="">
+                    <p>Login</p>
+                    <input type="text" placeholder="login" title="Usuário" id="login">
+                </label>
+                <label for="">
+                    <p>Senha</p>
+                    <input type="password" placeholder="**********" title="Senha" id="senha"> 
+                </label>
+                <input type="submit" value="OK" class="btn" onclick="logar()">
+            </form>
+            <div class="esqueceu-senha">
+                <a href="#" title="redefinir senha" class="esqueciSenha">Esqueci minha senha</a>
+            </div>
+            <div class="sem-cadastro">
+                <p><i>Não tem cadastro ?</i></p>
+                <a href="cadastro.html">cadastrar-se</a>
+            </div>
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>

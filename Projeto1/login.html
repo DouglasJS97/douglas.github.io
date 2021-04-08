@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="shortcut icon" href="crown-solid.svg">
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <title>Já é registrado ? Faça seu login . . .</title>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <i class="fas fa-crown fa-2x"></i>
+        </div>
+        <input type="checkbox" id="btnBar">
+        <label for="btnBar">
+            <i class="fas fa-bars fa-2x"></i>
+            <i class="fas fa-times fa-2x"></i>
+        </label> 
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="noticias.html">Noticias</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li class="pesquisar">
+                </i><input type="text" placeholder="pesquisar">
+                <button><i class="fas fa-search"></i></button>
+            </li>
+            <section class="login">
+                <a href="login.html"><i class="fas fa-sign-in-alt"></i></a>
+            </section>
+            <div class="redes-sociais">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-pinterest"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </ul>
+    </div>
+
+   <section class="formulario">
+       <div class="container-form">
+           <h1 id="nameUser">login</h1>
+           <form action="">
+                <p>seu email</p>
+                <input type="email" name="" id="email" placeholder="example@example.com" required>
+                <p>Sua senha</p>
+                <input type="password" name="" id="senha" placeholder="********" required><br>
+                <button onclick="validaFormulario()">logar</button>
+            </form>
+            <div class="btnCadastrese">
+                <p class="cadastro">ainda não tem conta ? </p>
+                <a href="cadastro.html">cadastre-se</a>
+            </div>
+       </div>
+   </section>
+
+    <footer>
+        <h4>todos os direitos reservados ®</h4>
+        <p>sauer soluções e tecnologia</p>
+        <div class="redes-sociais-rodape">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-pinterest"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
